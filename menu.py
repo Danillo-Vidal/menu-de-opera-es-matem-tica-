@@ -1,3 +1,10 @@
+def somar():
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    print(f"Resultado: {num1 + num2}")
+
+
+
 def menu():
     print("1. Somar")
     print("2. Subtrair")
@@ -20,7 +27,5 @@ def menu():
     else:
         print("Opção inválida!")
 
-def somar():
-    num1 = float(input("Digite o primeiro número: "))
-    num2 = float(input("Digite o segundo número: "))
-    print(f"Resultado: {num1 + num2}")
+# Chama a função menu para iniciar o programa
+menu()

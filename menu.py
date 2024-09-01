@@ -8,7 +8,7 @@ def menu():
     escolha = int(input("Escolha uma opção: "))
     
     if escolha == 1:
-        print("Função somar ainda não implementada.")
+        somar()  
     elif escolha == 2:
         print("Função subtrair ainda não implementada.")
     elif escolha == 3:
@@ -19,3 +19,8 @@ def menu():
         print("Saindo...")
     else:
         print("Opção inválida!")
+
+def somar():
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    print(f"Resultado: {num1 + num2}")

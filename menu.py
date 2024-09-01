@@ -1,10 +1,9 @@
 def dividir():
+def subtrair():
     num1 = float(input("Digite o primeiro número: "))
     num2 = float(input("Digite o segundo número: "))
-    if num2 != 0:
-        print(f"Resultado: {num1 / num2}")
-    else:
-        print("Erro: Divisão por zero não é permitida.")
+    print(f"Resultado: {num1 - num2}")
+
 
 
 def menu():

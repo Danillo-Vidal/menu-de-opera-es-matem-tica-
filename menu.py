@@ -1,8 +1,7 @@
-def subtrair():
+def multiplicar():
     num1 = float(input("Digite o primeiro número: "))
     num2 = float(input("Digite o segundo número: "))
-    print(f"Resultado: {num1 - num2}")
-
+    print(f"Resultado: {num1 * num2}")
 
 
 def menu():
@@ -19,7 +18,7 @@ def menu():
     elif escolha == 2:
         subtrair()
     elif escolha == 3:
-        print("Função multiplicar ainda não implementada.")
+        multiplicar()
     elif escolha == 4:
         print("Função dividir ainda não implementada.")
     elif escolha == 0:

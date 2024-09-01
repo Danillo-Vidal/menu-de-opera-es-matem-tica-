@@ -1,7 +1,7 @@
-def somar():
+def subtrair():
     num1 = float(input("Digite o primeiro número: "))
     num2 = float(input("Digite o segundo número: "))
-    print(f"Resultado: {num1 + num2}")
+    print(f"Resultado: {num1 - num2}")
 
 
 
@@ -17,7 +17,7 @@ def menu():
     if escolha == 1:
         somar()  
     elif escolha == 2:
-        print("Função subtrair ainda não implementada.")
+        subtrair()
     elif escolha == 3:
         print("Função multiplicar ainda não implementada.")
     elif escolha == 4:

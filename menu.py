@@ -1,7 +1,10 @@
-def multiplicar():
+def dividir():
     num1 = float(input("Digite o primeiro número: "))
     num2 = float(input("Digite o segundo número: "))
-    print(f"Resultado: {num1 * num2}")
+    if num2 != 0:
+        print(f"Resultado: {num1 / num2}")
+    else:
+        print("Erro: Divisão por zero não é permitida.")
 
 
 def menu():
@@ -20,7 +23,7 @@ def menu():
     elif escolha == 3:
         multiplicar()
     elif escolha == 4:
-        print("Função dividir ainda não implementada.")
+        dividir()
     elif escolha == 0:
         print("Saindo...")
     else:
